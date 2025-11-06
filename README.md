@@ -2,13 +2,13 @@
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
     🎓 Faculty of Information Technology (DaiNam University)
     </a>
-</h2>
+
 <h2 align="center">
     Youth Union Member Management
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/logo/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img width="1508" height="1687" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/42158725-4e0c-4be1-8be6-58d19fa6fea3" />
         <img src="docs/logo/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
         <img src="docs/logo/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>

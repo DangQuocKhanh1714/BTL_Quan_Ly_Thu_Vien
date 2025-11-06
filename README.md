@@ -55,17 +55,20 @@ Hệ thống Quản lý Thư viện trong trường Đại học được xây d
 ### Trang chủ admin
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/59fc9c1c-29ff-41e0-af8c-4e3e2ef32243" />
 
-### Trang dashboard cán bộ 
+### Trang quản lý người dùng
 <img width="1917" height="872" alt="Screenshot 2025-11-06 174119" src="https://github.com/user-attachments/assets/7c37ea59-995a-483d-9774-b6b0f59e9a75" />
 
-### Trang dashboard đoàn viên     
+### Trang quản lý sách    
 <img width="1916" height="871" alt="Screenshot 2025-11-06 174141" src="https://github.com/user-attachments/assets/1d8e2504-cc3b-456e-b395-fb2ffab2b28d" />
 
-### Trang quản lý liên chi đoàn 
+### Trang quản lý thể loại
 <img width="1918" height="872" alt="Screenshot 2025-11-06 174154" src="https://github.com/user-attachments/assets/6736af1c-e8dd-468e-b391-cbd70accda17" />
 
-### Trang quản lý chi đoàn
+### Trang quản lý phiếu mượn
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174206" src="https://github.com/user-attachments/assets/b93f98a9-3e8d-44eb-8fb4-14af490f82e9" />
+
+### Trang nhật kí hệ thống
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174206" src="https://github.com/user-attachments/assets/322de25c-77f0-4289-b24e-58548ca97592" />
 
 ---
 

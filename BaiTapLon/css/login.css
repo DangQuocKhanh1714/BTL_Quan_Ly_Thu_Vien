@@ -1,0 +1,114 @@
+    :root {
+      --primary-color: #4A90E2; /* Xanh pastel */
+      --secondary-color: #6C63FF; /* Tím nhạt */
+      --bg-color: #f0f4f8; /* Xám xanh nhạt */
+      --error-color: #e74c3c;
+    }
+
+    /* 🌤️ Toàn trang */
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #a8edea, #d9a7c7);
+      min-height: 100vh;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* 📦 Hộp đăng nhập */
+    .login-container {
+      width: 100%;
+      max-width: 400px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      padding: 40px 35px;
+      text-align: center;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+
+    /* ✨ Tiêu đề */
+    .login-container h2 {
+      color: var(--primary-color);
+      font-size: 1.9em;
+      font-weight: bold;
+      margin-bottom: 25px;
+      padding-bottom: 0;
+      border: none;
+    }
+
+    /* 🔹 Ô nhập */
+    .form-group {
+      margin-bottom: 20px;
+      text-align: left;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      color: #333;
+      margin-bottom: 6px;
+      display: block;
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1em;
+      transition: all 0.3s ease;
+      background-color: #fafafa;
+      box-sizing: border-box;
+    }
+
+    .form-group input:focus {
+      border-color: var(--secondary-color);
+      box-shadow: 0 0 8px rgba(108,99,255,0.2);
+      outline: none;
+      background-color: white;
+    }
+
+    /* 🔘 Nút đăng nhập */
+    .btn-login {
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+      color: white;
+      font-size: 1.1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-sizing: border-box;
+      margin-top: 10px;
+    }
+
+    .btn-login:hover {
+      transform: scale(1.03);
+      background: linear-gradient(90deg, #5CA9F3, #7E75FF);
+      box-shadow: 0 4px 15px rgba(108,99,255,0.3);
+    }
+
+    /* ⚠️ Lỗi */
+    .error {
+      color: var(--error-color);
+      margin-bottom: 15px;
+      font-weight: bold;
+      font-size: 0.95em;
+    }
+
+    /* 🌈 Hiệu ứng xuất hiện */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* 📱 Responsive */
+    @media (max-width: 480px) {
+      .login-container {
+        padding: 30px 20px;
+      }
+    }

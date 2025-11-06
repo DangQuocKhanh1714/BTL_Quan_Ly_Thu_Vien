@@ -20,7 +20,7 @@
 </div>
  
 ## 📖 1. Giới thiệu
-Hệ thống Quản lý Đoàn viên trong trường Đại học được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá hoạt động của Đoàn Thanh niên trong môi trường giáo dục đại học. Thay vì quản lý thủ công bằng giấy tờ hay các tệp Excel rời rạc, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng.
+Hệ thống Quản lý Thư viện trong trường Đại học được xây dựng nhằm hỗ trợ công tác quản lý, theo dõi và đánh giá các nghiệp vụ thư viện như mượn, trả, và kiểm kê tài liệu trong môi trường giáo dục đại học. Thay vì quản lý thủ công bằng giấy tờ hay các tệp Excel rời rạc, hệ thống mang đến một giải pháp tập trung, hiện đại và dễ sử dụng, giúp nâng cao hiệu quả phục vụ bạn đọc và bảo trì kho sách.
 
 ## 🔧 2. Các công nghệ được sử dụng
 <div align="center">
@@ -52,7 +52,7 @@ Hệ thống Quản lý Đoàn viên trong trường Đại học được xây 
 ### Trang đăng nhập
 <img width="1916" height="873" alt="Screenshot 2025-11-06 173126" src="https://github.com/user-attachments/assets/3404dfbd-442e-44b8-98bb-e54e8d888596" />
 
-### Trang dashboard admin
+### Trang chủ admin
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/59fc9c1c-29ff-41e0-af8c-4e3e2ef32243" />
 
 ### Trang dashboard cán bộ 

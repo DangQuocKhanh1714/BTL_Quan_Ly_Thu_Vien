@@ -88,9 +88,9 @@ Clone project về thư mục `htdocs` của XAMPP (ví dụ ổ C):
 
 ```bash
 cd C:\xampp\htdocs
-https://github.com/tyanzuq2811/BTL_Quan_ly_doan_vien.git
+https://github.com/DangQuocKhanh1714/BTL_Quan_Ly_Thu_Vien.git
 Truy cập project qua đường dẫn:
-👉 http://localhost/authentication_login.
+👉 http://localhost/login.php
 ```
 ### 4.3. Setup database
 Mở XAMPP Control Panel, Start Apache và MySQL
@@ -98,7 +98,7 @@ Mở XAMPP Control Panel, Start Apache và MySQL
 Truy cập MySQL WorkBench
 Tạo database:
 ```bash
-CREATE DATABASE IF NOT EXISTS quan_ly_doan_vien
+CREATE DATABASE IF NOT EXISTS qltvnhom3
    CHARACTER SET utf8mb4
    COLLATE utf8mb4_unicode_ci;
 ```
@@ -108,20 +108,27 @@ Mở file config.php (hoặc .env) trong project, chỉnh thông tin DB:
 ```bash
 
 <?php
+
     function getDbConnection() {
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "quan_ly_doan_vien";
+        $dbname = "qltvnhom3";
         $port = 3306;
+
+        // Tạo kết nối
         $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
+
+        // Kiểm tra kết nối
         if (!$conn) {
             die("Kết nối database thất bại: " . mysqli_connect_error());
         }
+        // Thiết lập charset cho kết nối (quan trọng để hiển thị tiếng Việt đúng)
         mysqli_set_charset($conn, "utf8");
         return $conn;
     }
-?>
+
+    ?>
 ```
 ### 4.5. Chạy hệ thống
 Mở XAMPP Control Panel → Start Apache và MySQL
@@ -130,13 +137,15 @@ Truy cập hệ thống:
 👉 http://localhost/index.php
 
 ### 4.6. Đăng nhập lần đầu
-Hệ thống có thể cấp tài khoản admin 
+Hệ thống cung cấp tài khoản quản trị viên (Admin) mặc định cho người phụ trách thư viện.
 
-Sau khi đăng nhập Admin có thể:
+Sau khi đăng nhập, Quản trị viên có thể:
 
-Tạo thông tin tổ chức đoàn (Đoàn trường, Liên chi, Chi đoàn)
+Quản lý Thể loại/Danh mục sách: Tạo, sửa, và xóa các danh mục sách (ví dụ: Khoa học, Văn học, Công nghệ thông tin).
 
-Thêm đoàn viên và cấp tài khoản
+Thêm và quản lý Đầu sách: Nhập thông tin chi tiết về sách (tên, tác giả, số lượng tồn kho) vào hệ thống.
 
-Quản lý phân quyền theo cấp
+Thêm Sinh viên/Người dùng: Thêm thông tin sinh viên (Mã sinh viên, Họ tên) và cấp tài khoản truy cập vào hệ thống (nếu có chức năng đăng nhập riêng cho sinh viên).
+
+Quản lý phân quyền người dùng: Thiết lập phân quyền truy cập cho các vai trò khác nhau (ví dụ: Admin Thư viện, Thủ thư, Sinh viên).
     

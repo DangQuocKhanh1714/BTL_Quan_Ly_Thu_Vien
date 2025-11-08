@@ -44,31 +44,34 @@ Hệ thống Quản lý Thư viện trong trường Đại học được xây d
 [![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)](https://www.apachefriends.org/)
 
 ### Database Management Tools
-[![MySQL Workbench](https://img.shields.io/badge/MySQL_Workbench-4479A1?style=for-the-badge&logo=mysql&logoColor=white)](https://dev.mysql.com/downloads/workbench/)
-</div>
+
 
 ## 🚀 3. Hình ảnh các chức năng
+<img width="1899" height="868" alt="image" src="https://github.com/user-attachments/assets/e6ad0414-df80-4f3e-88ca-34f5b9084ff4" />
 
 ### Trang đăng nhập
 <img width="1916" height="873" alt="Screenshot 2025-11-06 173126" src="https://github.com/user-attachments/assets/aabc43fd-7a3f-404e-b14c-a5e6e485e2ed" />
 
 ### Trang chủ admin
-<img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/59fc9c1c-29ff-41e0-af8c-4e3e2ef32243" />
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/6d7e414a-000c-405a-8cc8-a6cd18fb9e8e" />
+
+### Tìm kiếm theo tác giả
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/b1f82769-d439-45fa-a643-dd70b98a2f33" />
+
+### Trang quản lý
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/228e3403-2321-4be4-9acc-cba37165f673" />
 
 ### Trang quản lý người dùng
-<img width="1917" height="872" alt="Screenshot 2025-11-06 174119" src="https://github.com/user-attachments/assets/7c37ea59-995a-483d-9774-b6b0f59e9a75" />
+<img width="1917" height="872" alt="Screenshot 2025-11-06 174119" src="https://github.com/user-attachments/assets/fa78b8ea-4ac2-41fb-830c-1af3b53b312c" />
 
 ### Trang quản lý sách    
-<img width="1916" height="871" alt="Screenshot 2025-11-06 174141" src="https://github.com/user-attachments/assets/1d8e2504-cc3b-456e-b395-fb2ffab2b28d" />
+<img width="1916" height="871" alt="Screenshot 2025-11-06 174141" src="https://github.com/user-attachments/assets/ff02da55-dac3-424d-b9e7-0e1986c92016" />
 
-### Trang quản lý thể loại
-<img width="1918" height="872" alt="Screenshot 2025-11-06 174154" src="https://github.com/user-attachments/assets/6736af1c-e8dd-468e-b391-cbd70accda17" />
+### Trang quản lý mượn/trả
+<img width="1918" height="872" alt="Screenshot 2025-11-06 174154" src="https://github.com/user-attachments/assets/e997a016-8088-45c5-af4e-8ad1953b6f04" />
 
-### Trang quản lý phiếu mượn
-<img width="1900" height="871" alt="Screenshot 2025-11-06 174206" src="https://github.com/user-attachments/assets/b93f98a9-3e8d-44eb-8fb4-14af490f82e9" />
-
-### Trang nhật kí hệ thống
-<img width="1900" height="871" alt="Screenshot 2025-11-06 174206" src="https://github.com/user-attachments/assets/322de25c-77f0-4289-b24e-58548ca97592" />
+### Trang quản lý phiếu phạt
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174206" src="https://github.com/user-attachments/assets/f137ecdd-2e65-4192-b6ed-a1ce005d5d53" />
 
 ---
 
@@ -98,7 +101,7 @@ Mở XAMPP Control Panel, Start Apache và MySQL
 Truy cập MySQL WorkBench
 Tạo database:
 ```bash
-CREATE DATABASE IF NOT EXISTS qltvnhom3
+CREATE DATABASE IF NOT EXISTS quan_ly_thu_vien
    CHARACTER SET utf8mb4
    COLLATE utf8mb4_unicode_ci;
 ```
@@ -113,7 +116,7 @@ Mở file config.php (hoặc .env) trong project, chỉnh thông tin DB:
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "qltvnhom3";
+        $dbname = "quan_ly_thu_vien";
         $port = 3306;
 
         // Tạo kết nối

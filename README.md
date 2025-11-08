@@ -57,6 +57,9 @@ Hệ thống Quản lý Thư viện trong trường Đại học được xây d
 ### Tìm kiếm theo tác giả
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/6d7e414a-000c-405a-8cc8-a6cd18fb9e8e" />
 
+### Tìm kiếm theo tên sách
+<img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/08f1a248-754d-4cbb-9481-cb6065066c5a" />
+
 ### Trang quản lý
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/228e3403-2321-4be4-9acc-cba37165f673" />
 

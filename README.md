@@ -50,7 +50,7 @@ Hệ thống Quản lý Thư viện trong trường Đại học được xây d
 ## 🚀 3. Hình ảnh các chức năng
 
 ### Trang đăng nhập
-<img width="1916" height="873" alt="Screenshot 2025-11-06 173126" src="https://github.com/user-attachments/assets/3404dfbd-442e-44b8-98bb-e54e8d888596" />
+<img width="1916" height="873" alt="Screenshot 2025-11-06 173126" src="https://github.com/user-attachments/assets/aabc43fd-7a3f-404e-b14c-a5e6e485e2ed" />
 
 ### Trang chủ admin
 <img width="1900" height="871" alt="Screenshot 2025-11-06 174100" src="https://github.com/user-attachments/assets/59fc9c1c-29ff-41e0-af8c-4e3e2ef32243" />
